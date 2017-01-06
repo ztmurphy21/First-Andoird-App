@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
                 public void onClick(View view){
                     Intent startIntent = new Intent(getApplicationContext(), SecondaryActivity.class);
+                    startIntent.putExtra("com.example.zacha.hour2application.MESSAGE", "Hello SecondaryActivity");
                     startActivity(startIntent);
             }
         });
