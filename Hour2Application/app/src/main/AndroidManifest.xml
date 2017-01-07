@@ -15,7 +15,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondaryActivity"></activity>
+        <activity
+            android:name=".SecondaryActivity"
+            android:label="@string/title_activity_secondary">
+            <Intent-filter>
+                <action android:name="android.Intent.action.SEND"/>
+                <category android:name="android.Intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </Intent-filter>
+
+            ></activity>
     </application>
 
 </manifest>

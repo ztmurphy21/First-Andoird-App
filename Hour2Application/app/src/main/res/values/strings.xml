@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Hour2Application</string>
+    <string name="title_activity_secondary" />
 </resources>
